@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      body {
+        background-color: #D3D3D3;
+      }
+
+      h1 {
+        color: black;
+        text-align: center;
+        font-family: Arial;
+      }
+
+      h2 {
+        font-family: Arial;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>Toronto, Ontario</h1>
+    <h2>Tourist Attractions</h2>
+    <ul>
+      <li>CN Tower</li>
+      <li>Lake Ontario</li>
+      <li>Toronto Eaton Center</li>
+      <li>Canada's Wonderland</li>
+      <li>Air Canada Center</li>
+      <li>Hockey Hall of Fame</li>
+      <li>Dundas Square</li>
+    </ul>
+  </body>
+
+</html>
