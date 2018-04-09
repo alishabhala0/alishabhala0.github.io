@@ -2,48 +2,72 @@
 <html>
 
   <head>
-    <title>Electronic Portfolio</title>
-    <!--Alisha-->
     <style>
       * {
         box-sizing: border-box;
         font-family: Comic Sans MS;
       }
-
-      body {
-        background-color: #DEE9FC;
-      }
-
       .header,
       .footer {
         background-color: #6395F2;
-        color: #091834;
+        color: black;
         padding: 15px;
       }
-
       .column {
         float: left;
         padding: 15px;
       }
-
       .column img {
         float: right;
       }
-
       .clearfix::after {
         content: "";
         clear: both;
         display: table;
-
+      }
+      .menu {
+        width: 20%;
+      }
+      .content {
+        width: 70%;
+        float: right;
+      }
+      
+      .more {
+      	float: right;
+        }
+      
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #DEE9FC;
+        color: white;
+      }
+      .menu li:hover {
+        background-color: #0099cc
+      }
     </style>
   </head>
 
   <body>
+
     <div class="header">
       <h1>Electronic Portfolio</h1>
     </div>
     <div class="clearfix">
-    </div>
+      <div class="column menu">
+        <ul>
+          <li><a href="https://alishabhala0.github.io/electronic_portfolio1.html">Contact Information</a></li>
+          <li><a href="https://alishabhala0.github.io/electronic_portfolio2.html">Academic History</a></li>
+          <li><a href="https://alishabhala0.github.io/electronic_portfolio3.html">Accomplishments</a></li>
+          <li><a href="https://alishabhala0.github.io/electronic_portfolio4.html">Work & Volunteer Experience</a></li>
+        </ul>
+      </div>
     <div class="column content"><img src="http://www.sunhealth.org/wp-content/uploads/2016/07/shutterstock_372018022-150x150.jpg">
       <h1>Accomplishments</h1>
       <p>
@@ -54,3 +78,5 @@
         </ul>
     </div>
     <div class="column content more">
+
+
